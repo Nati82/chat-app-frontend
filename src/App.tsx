@@ -1,17 +1,9 @@
-import { Box, Stack } from "@mui/material";
-import Chatbar from "./UI components/Chatbar";
-import Mainbar from "./UI components/Mainbar";
-import Menubar from "./UI components/Menubar";
+import { RouterProvider } from "react-router-dom";
+import { router } from "./UI components/Router";
 
 function App() {
   return (
-    <Box>
-      <Stack direction="row">
-        <Menubar />
-        <Mainbar />
-        <Chatbar />
-      </Stack>
-    </Box>
+    <RouterProvider router={router} />
   );
 }
 
