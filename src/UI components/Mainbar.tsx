@@ -3,7 +3,7 @@ import { Outlet } from "react-router-dom";
 
 const Mainbar = () => {
   return (
-    <Box flex={3} bgcolor="gray">
+    <Box flex={2} bgcolor="whitesmoke">
       <Outlet />
     </Box>
   );
